@@ -1,0 +1,1123 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "how are you",
+        "greetings",
+        "what's up",
+        "hello there",
+        "hi there",
+        "howdy",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "nice to meet you",
+        "pleasure to meet you"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hey! How can I help you?",
+        "What can I do for you?",
+        "Hi! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "name",
+        "who are you",
+        "what should I call you",
+        "can you tell me your name",
+        "do you have a name",
+        "what's your name",
+        "how should I address you",
+        "introduce yourself",
+        "may I know your name",
+        "what do people call you",
+        "what are you called",
+        "your name is",
+        "tell me about yourself",
+        "identify yourself"
+      ],
+      "responses": [
+        "I'm a virtual assistant, specifically designed to answer UNAM School of Science admission related questions"
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": [
+        "What are the admission requirements for the School of Science?",
+        "Science admission criteria",
+        "entry requirements",
+        "requirements",
+        "admission requirements",
+        "how do I get into the School of Science",
+        "what do I need to apply to the School of Science",
+        "Science faculty entry criteria",
+        "UNAM Science School prerequisites",
+        "minimum requirements for Science admission",
+        "what grades do I need for Science School",
+        "Science School application requirements",
+        "qualifications needed for Science School",
+        "academic requirements for Science admission",
+        "how to qualify for School of Science"
+      ],
+      "responses": [
+        "To apply to the UNAM School of Science, you are required to have a valid Namibian Senior Secondary Certificate. With a strong emphasis on mathematics and science subjects. Specific requirements may vary depending on the program, so please check the program details for precise requirements."
+      ]
+    },
+ {
+      "tag": "conditional_entry",
+      "patterns": [
+        "What is conditional entry?",
+        "conditional admission",
+        "entry requirements under special conditions",
+        "Entry",
+        "How does conditional entry work?",
+        "explain conditional admission",
+        "special admission conditions",
+        "alternative entry options",
+        "non-standard admission",
+        "provisional acceptance",
+        "conditional offer",
+        "admission with conditions",
+        "special entry requirements",
+        "conditional enrollment process",
+        "what if I don't meet standard requirements"
+      ],
+      "responses": [
+        "Conditional entry allows students to be admitted to the School of Science under certain conditions. <br> This might include achieving specific grades in bridging courses or meeting additional requirements specified by the program."
+      ]
+    },
+    {
+      "tag": "programs_offered",
+      "patterns": [
+        "What programs are offered by the School of Science?",
+        "Science programs",
+        "programs",
+        "Courses Offered",
+        "List of courses in Science",
+        "available majors in Science",
+        "Science degree options",
+        "UNAM Science specializations",
+        "undergraduate Science programs",
+        "postgraduate Science courses",
+        "Science faculty curriculum",
+        "what can I study in Science",
+        "Science department offerings",
+        "Science academic programs",
+        "Science course catalog"
+      ],
+      "responses": [
+        "The School of Science offers a wide range of undergraduate and postgraduate programs across various disciplines. Undergraduate programs include Bachelor of Science degrees in fields such as Biochemistry, Microbiology, Ecology, Environmental Science, Forestry, Physics, Chemistry, Statistics, Data Science, and Computing, among others. There are also diploma programs in Applied Statistics and Computing. <br> At the postgraduate level, the school offers Master of Science degrees in areas like Mathematics, Biostatistics, Industrial Biochemistry, Microbiology, Applied Geology, Physics, Chemistry, Renewable Energy, Nuclear Science, and Information Technology, along with a Postgraduate Diploma in Applied Research Methods and a specialized MSc in Wildlife & Tourism Management by thesis."
+      ]
+    },
+    {
+      "tag": "Scinence_Departments",
+      "patterns": [
+        "What are the Departments in the School of Science?",
+        "Science Departments",
+        "Departments",
+        "Available Departments",
+        "What departments are there in Science",
+        "Science faculty structure",
+        "academic units in Science",
+        "Science school divisions",
+        "list of Science departments",
+        "Science organizational structure",
+        "branches of Science school",
+        "Science school sections",
+        "major areas in Science school",
+        "Science department breakdown",
+        "how is the Science school organized"
+      ],
+      "responses": [
+        "The UNAM School of Science consists of seven departments: <br> -Department of Biochemistry, Microbiology, and Biotechnology <br> -Department of Environmental Science <br> -Department of Physics, Chemistry, and Material Science <br> -Department of Geo-Sciences <br> -Department of Wildlife Management and Tourism Studies <br> -Department of Computing, Mathematical, and Statistical Sciences <br> -Postgraduate Programmes in the School"
+      ]
+    },
+    {
+      "tag": "Bachelor_of_Science_in_Biochemistry",
+      "patterns": [
+        "What are the admission requirements for the Bachelor of Science in Biochemistry",
+        "Bachelor of Science in Biochemistry",
+        "Biochemistry",
+        "Biochem",
+        "Biochemistry program details",
+        "how to apply for Biochemistry",
+        "Biochemistry degree prerequisites",
+        "UNAM Biochemistry admission",
+        "entry criteria for Biochemistry",
+        "Biochemistry course requirements",
+        "what do I need for Biochemistry degree",
+        "Biochemistry program admission",
+        "qualifications for Biochemistry study",
+        "Biochemistry application process",
+        "UNAM Biochemistry entry requirements"
+      ],
+      "responses": [
+        "To register for the Bachelor in Biochemistry, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> Option 1: <br> -Pass in five subjects, including Biology and Chemistry at NSSCAS level with a grade of D or higher. <br> -Mathematics and two other subjects at NSSCO level with an average grade of C or higher. <br> -English must be at least a C grade at NSSCO level. <br> Option 2: <br> -Pass in five subjects, including Biology and Chemistry at NSSCAS level with a grade of D or higher. <br> -Mathematics and one other subject at NSSCO level with an average of C or higher. <br> -English must be at least a C grade at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> Option 1: <br> -Pass in five subjects, with two at NSSCH level (grade 4 or higher) and three at NSSCO level (C or higher), including English, Biology, and Chemistry with a minimum C at NSSCO level. <br> Option 2: <br> -Pass in five subjects, with three at NSSCH level (grade 4 or higher) and two at NSSCO level (C or higher), including English, Biology, and Chemistry with a minimum C at NSSCO level. <br> NB: There are also conditional entry pathways available for the program."
+      ]
+    },
+{
+      "tag": "Bachelor_of_Science_in_Microbiology",
+      "patterns": [
+        "What are the admission requirements for the Bachelor of Science in Microbiology",
+        "Bachelor of Science in Microbiology",
+        "Microbiology",
+        "MicroBio",
+        "Microbiology program details",
+        "how to apply for Microbiology",
+        "Microbiology degree prerequisites",
+        "UNAM Microbiology admission",
+        "entry criteria for Microbiology",
+        "Microbiology course requirements",
+        "what do I need for Microbiology degree",
+        "Microbiology program admission",
+        "qualifications for Microbiology study",
+        "Microbiology application process",
+        "UNAM Microbiology entry requirements"
+      ],
+      "responses": [
+        "To register for the Bachelor in Microbiology, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> Option 1: <br> -Pass in five subjects, including Biology and Chemistry at NSSCAS level with a grade of D or higher. <br> -Mathematics and two other subjects at NSSCO level with an average grade of C or higher. <br> -English must be at least a C grade at NSSCO level. <br> Option 2: <br> -Pass in five subjects, including Biology and Chemistry at NSSCAS level with a grade of D or higher. <br> -Mathematics and one other subject at NSSCO level with an average of C or higher. <br> -English must be at least a C grade at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> Option 1: <br> -Pass in five subjects, with two at NSSCH level (grade 4 or higher) and three at NSSCO level (C or higher), including English, Biology, and Chemistry with a minimum C at NSSCO level. <br> Option 2: <br> -Pass in five subjects, with three at NSSCH level (grade 4 or higher) and two at NSSCO level (C or higher), including English, Biology, and Chemistry with a minimum C at NSSCO level. <br> NB: There are also conditional entry pathways available for the program."
+      ]
+    },
+    {
+      "tag": "Master_of_Science_in_Industrial_Biochemistry",
+      "patterns": [
+        "Requirements for the Master of Science in Industrial Biochemistry",
+        "Master of Science in Industrial Biochemistry",
+        "Master in Industrial Biochemistry",
+        "Industrial Biochem",
+        "Industrial Biochemistry program details",
+        "how to apply for MSc Industrial Biochemistry",
+        "Industrial Biochemistry postgraduate admission",
+        "UNAM MSc Industrial Biochemistry entry",
+        "Industrial Biochemistry master's prerequisites",
+        "qualifications for Industrial Biochemistry MSc",
+        "Industrial Biochemistry graduate program",
+        "MSc Industrial Biochemistry application",
+        "Industrial Biochemistry advanced degree",
+        "UNAM Industrial Biochemistry master's",
+        "Industrial Biochemistry postgrad requirements"
+      ],
+      "responses": [
+        "The Master of Science (MSc) in Industrial Biochemistry is open to Bachelor of Science (BSc) graduates with a major in Biochemistry or related fields. However, admission is not automatic for BSc Biochemistry degree holders. Acceptance is based on the applicant's undergraduate academic performance, with a minimum required average of 60%."
+      ]
+    },
+    {
+      "tag": "Master_of_Science_in_Microbiology",
+      "patterns": [
+        "Requirements for the Master of Science in Microbiology",
+        "Master of Science in Microbiology",
+        "Master in Microbiology",
+        "Microbiology Master",
+        "Microbiology program details",
+        "how to apply for MSc Microbiology",
+        "Microbiology postgraduate admission",
+        "UNAM MSc Microbiology entry",
+        "Microbiology master's prerequisites",
+        "qualifications for Microbiology MSc",
+        "Microbiology graduate program",
+        "MSc Microbiology application",
+        "Microbiology advanced degree",
+        "UNAM Microbiology master's",
+        "Microbiology postgrad requirements"
+      ],
+      "responses": [
+        "Applicants with a Bachelor of Science (Hons) degree in fields such as Microbiology, Biochemistry, Molecular Biology, Biotechnology, Food Science, or Veterinary Sciences at NQF level 8 are eligible to apply for this program. <br> Admission is based on the applicant's undergraduate performance, requiring an average mark of at least 60%. Additionally, UNAM graduates with a 4-year BSc degree and an average of 60% may also be admitted if they passed Research Methodology and had a research component in Microbiology or Molecular Biology during their studies. <br> The department will evaluate these applications, and admission is competitive, with only 20 students initially accepted"
+      ]
+    },
+    {
+      "tag": "Bachelor_of_Science_in_Ecology_and_Biodiversity_Conservation",
+      "patterns": [
+        "What are the admission requirement for the Bachelor of Science in Ecology and Biodiversity Conservation",
+        "Bachelor of Science in Ecology and Biodiversity Conservation",
+        "Ecology and Biodiversity Conservation",
+        "Eco and Biodiv",
+        "Ecology and Biodiversity program details",
+        "how to apply for Ecology and Biodiversity",
+        "Ecology degree prerequisites",
+        "UNAM Ecology and Biodiversity admission",
+        "entry criteria for Ecology program",
+        "Biodiversity Conservation course requirements",
+        "what do I need for Ecology degree",
+        "Ecology and Biodiversity program admission",
+        "qualifications for Ecology study",
+        "Biodiversity Conservation application process",
+        "UNAM Ecology entry requirements"
+      ],
+      "responses": [
+        "To register for the Bachelor in Ecology and Biodiversity Conservation, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> Option 1: <br> -Pass in five different subjects, including two at NSSCAS level with an average grade of D or higher (one must be Biology). <br> -Three subjects at NSSCO level with a grade of C or higher (including Mathematics and Physical Science or equivalent). <br> -English must be at least a C grade at NSSCO level. <br> Option 2: <br> -Pass in five different subjects, including three at NSSCAS level with an average grade of D or higher (one must be Biology). <br> -Two subjects at NSSCO level with a grade of D or higher (including Mathematics and Physical Science or equivalent). <br> -English must be at least a C grade at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> Option 1: <br> -Pass in five different subjects, including two at NSSCH level with a grade of 4 or higher, and three at NSSCO level with a grade of C or higher (including English, Mathematics, and Physical Science must be at least a C on NSSCO). <br> Option 2: <br> -Pass in five different subjects, including three at NSSCH level with a grade of 4 or higher, and two at NSSCO level with a grade of C or higher (including English, Mathematics, and Physical Science must be at least a C on NSSCO). <br> NB: There are also conditional entry pathways available for the program."
+      ]
+    },
+{
+  "tag": "Bachelor_of_Science_in_Environmental_and_Geographical_Sciences",
+  "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Environmental and Geographical Sciences",
+    "Bachelor of Science in Environmental and Geographical Sciences",
+    "Environmental and Geographical Sciences",
+    "Environment and Geograph",
+    "Environmental and Geographical Sciences program details",
+    "How do I apply for Environmental and Geographical Sciences?",
+    "Tell me about the Environmental and Geographical Sciences degree",
+    "What GPA do I need for Environmental and Geographical Sciences?",
+    "Is there an entrance exam for Environmental and Geographical Sciences?",
+    "Environmental and Geographical Sciences course requirements",
+    "Can you explain the Environmental and Geographical Sciences program?",
+    "What subjects are needed for Environmental and Geographical Sciences?",
+    "Environmental and Geographical Sciences admission criteria",
+    "How competitive is the Environmental and Geographical Sciences program?",
+    "Environmental and Geographical Sciences entry requirements"
+  ],
+  "responses": ["To register for the Bachelor in Environmental and Geographical Sciences, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> Option 1: <br> -Pass in five different subjects, including two at NSSCAS level with a “D” average or higher (specifically Biology or Geography). <br> -Three subjects at NSSCO level with a grade of C or higher (two of which must be Mathematics and Chemistry). <br> -English must be at least a C grade at NSSCO level. <br> Option 2: <br> -Pass in five different subjects, including three at NSSCAS level with a “D” average or higher (preferably Biology and Geography, and also including Mathematics). <br> -Two subjects at NSSCO level with a grade of D or higher (one of which should be Mathematics if it wasn’t taken at AS level). <br> -English must be at least a C grade at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> Option 1: <br> -Pass in five different subjects, including two at NSSCH level with a grade of 4 or higher, and three at NSSCO level with a grade of C or higher. <br> -Additionally, English, Mathematics, and Physical Science must be at least a C grade on NSSCO. <br> Option 2: <br> -Pass in five different subjects, including three at NSSCH level with a grade of 4 or higher, and two at NSSCO level with a grade of C or higher. <br> -Additionally, English, Mathematics, and Physical Science must be at least a C grade on NSSCO. <br> NB: There are also conditional entry pathways available for the program."]
+},
+{
+  "tag": "Bachelor_of_Science_in_Forestry_and_Rangeland_Management",
+  "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Forestry and Rangeland Management",
+    "Bachelor of Science in Forestry and Rangeland Management",
+    "Forestry and Rangeland Management",
+    "Forest and Range",
+    "Forestry and Rangeland Management program details",
+    "How can I study Forestry and Rangeland Management?",
+    "Tell me about the Forestry and Rangeland Management degree",
+    "What grades do I need for Forestry and Rangeland Management?",
+    "Is there an interview for Forestry and Rangeland Management?",
+    "Forestry and Rangeland Management course prerequisites",
+    "Can you explain the Forestry and Rangeland Management program?",
+    "What subjects should I take for Forestry and Rangeland Management?",
+    "Forestry and Rangeland Management admission process",
+    "How selective is the Forestry and Rangeland Management program?",
+    "Forestry and Rangeland Management entry requirements"
+  ],
+  "responses": ["To register for the Bachelor in Forestry and Rangeland Management, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> Option 1: <br> -Pass in five different subjects, including two subjects at NSSCAS level with an average of D or higher (one must be Biology or Mathematics). <br> -Three subjects at NSSCO level with a grade of C or higher (one must be Mathematics, Biology, Geography, or Chemistry). <br> -English must be at least a C at NSSCO level. <br> Option 2: <br> -Achieve a total of at least 27 points on the UNAM Scale in five different subjects, including three subjects at NSSCAS level with an average of D or higher (two must be Biology and Mathematics or Biology and Geography). <br> -Two subjects at NSSCO level with an average of D or higher, which can include any of the following: Biology, Chemistry, Geography, Mathematics, Development Studies, Agricultural Science. <br> -English must be at least a C at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> Option 1: <br> -Pass in five different subjects, including two subjects at NSSCH level with a grade of 4 or higher. <br> -Three subjects at NSSCO level with a grade of C or higher. <br> -Additionally, English, Mathematics, and Physical Science must be at least a C at NSSCO level. <br> Option 2: <br> -Pass in five different subjects, including three subjects at NSSCH level with a grade of 4 or higher. <br> -Two subjects at NSSCO level with a grade of C or higher. <br> -Additionally, English, Mathematics, and Physical Science must be at least a C at NSSCO level. <br> NB: There are also conditional entry pathways available for the program."]
+},
+{
+  "tag": "Master_of_Science_in_Biodiversity_Management",
+  "patterns": [
+    "What are the admission requirement for the Master of Science in Biodiversity Management",
+    "Master of Science in Biodiversity Management",
+    "Biodiversity Management",
+    "MSc Biodiv Manage",
+    "MSc in Biodiversity Management program details",
+    "How do I apply for the Biodiversity Management master's?",
+    "Tell me about the Biodiversity Management MSc",
+    "What GPA is required for the Biodiversity Management master's?",
+    "Is there a thesis component in the Biodiversity Management MSc?",
+    "Biodiversity Management master's program structure",
+    "Can you explain the Biodiversity Management graduate program?",
+    "What background do I need for the Biodiversity Management MSc?",
+    "Biodiversity Management master's admission criteria",
+    "How long is the Biodiversity Management master's program?",
+    "Biodiversity Management MSc entry requirements"
+  ],
+  "responses": ["The MSc in Biodiversity Management program in the Department of Environmental Science is open to applicants with at least a Bachelor’s degree at NQF level 8 or equivalent with Biology or related majors. <br> The applicants will be accepted on the basis of their undergraduate records with an average mark of at least 60%."]
+},
+{
+  "tag": "Bachelor_of_Science_in_Physics",
+  "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Physics",
+    "Bachelor of Science in Physics",
+    "Bachelor of Physics",
+    "Physics",
+    "Physics program details",
+    "How do I enroll in the Physics program?",
+    "Tell me about studying Physics at UNAM",
+    "What grades are needed for the Physics degree?",
+    "Is there a practical component in the Physics program?",
+    "Physics degree course structure",
+    "Can you explain the undergraduate Physics curriculum?",
+    "What math skills do I need for the Physics program?",
+    "Physics program admission process",
+    "How challenging is the Physics degree?",
+    "Physics BSc entry requirements"
+  ],
+  "responses": ["To register for the Bachelor in Physics, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> Option 1: <br> -Pass in five different subjects, including two subjects at NSSCAS level with a D symbol or higher (must be Mathematics and Physics). <br> -Three subjects at NSSCO level with a C symbol or higher (two must be Chemistry and English; the third can be Computer Studies, Biology, or Geography). <br> Option 2: <br> -Pass in five different subjects, including three subjects at NSSCAS level with a “D” symbol or higher (two must be Mathematics and Physics, and the third must be either Chemistry or Computer Science). <br> -Two subjects at NSSCO level with a C symbol or higher (one must be Chemistry if not taken at NSSCAS; if Chemistry is taken at NSSCAS, the subject can be selected from Computer Studies, Biology, or Geography, with English as the remaining subject). <br> For Namibian school leaving certificates issued before 2021: <br> Option 1: <br> -Pass in five different subjects, including two subjects at NSSCH level with a grade of 4 or higher (specifically Mathematics and Physical Science). <br> -Three subjects at NSSCO level with a C symbol or higher, with English at a minimum of C. <br> Option 2: <br> -Pass in five different subjects, including three subjects at NSSCH level with a grade of 4 or higher (specifically Mathematics and Physical Science). <br> -Two subjects at NSSCO level with a D symbol or higher, and English at a minimum of C. <br> NB: There are also conditional entry pathways available for the program."]
+},
+{
+  "tag": "Bachelor_of_Science_in_Chemistry",
+  "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Chemistry",
+    "Bachelor of Science in Chemistry",
+    "Chemistry",
+    "Bachelor of Chemistry",
+    "Chemistry program details",
+    "How can I apply for the Chemistry degree?",
+    "Tell me about the Chemistry program at UNAM",
+    "What NSSC grades do I need for Chemistry?",
+    "Are there lab sessions in the Chemistry program?",
+    "Chemistry degree course outline",
+    "Can you explain the undergraduate Chemistry curriculum?",
+    "What science background is needed for the Chemistry program?",
+    "Chemistry program application process",
+    "How competitive is the Chemistry degree admission?",
+    "Chemistry BSc entry criteria"
+  ],
+  "responses": ["To register for the Bachelor in Chemistry, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> Option 1: <br> -Pass in five different subjects, including two subjects at NSSCAS level with a D symbol or higher (must be Chemistry and Mathematics). <br> -Three subjects at NSSCO level with a C symbol or higher (two must be English and either Physics or Biology; the remaining subject can be selected from Physics, Biology, Computer Studies, or Geography). <br> Option 2: <br> -Pass in five different subjects, including three subjects at NSSCAS level with a “D” symbol or higher (two must be Chemistry and Mathematics; the third should be Physics, Biology, or Computer Science). <br> -Two subjects at NSSCO level with a C symbol or higher (one must be Physics or Biology if not taken at NSSCAS; if Physics or Biology was taken at NSSCAS, this subject can be selected from Computer Studies or Geography, with English as the remaining subject). <br> For Namibian school leaving certificates issued before 2021: <br> Option 1: <br> -Pass in five different subjects, including two subjects at NSSCH level with a grade of 4 or higher (specifically Mathematics and Physical Science). <br> -Three subjects at NSSCO level with a C symbol or higher, with English at a minimum of C. <br> Option 2: <br> -Pass in five different subjects, including three subjects at NSSCH level with a grade of 4 or higher (two must be Mathematics and Physical Science). <br> -Two subjects at NSSCO level with a “D” symbol or higher, and English at a minimum of C, <br> NB: There are also conditional entry pathways available for the program."]
+},
+{
+  "tag": "Master_of_Science_in_Physics",
+  "patterns": [
+    "What are the admission requirement for the Master of Science in Physics",
+    "Master of Science in Physics",
+    "Master in Physics",
+    "MSc Physics",
+    "MSc in Physics program details",
+    "How do I apply for the Physics master's program?",
+    "Tell me about the graduate Physics program",
+    "What undergraduate degree is needed for the Physics MSc?",
+    "Is there a research component in the Physics master's?",
+    "Physics MSc course structure",
+    "Can you explain the graduate Physics curriculum?",
+    "What specializations are available in the Physics MSc?",
+    "Physics master's program admission criteria",
+    "How long does the Physics MSc take to complete?",
+    "Physics graduate program entry requirements"
+  ],
+  "responses": ["The admission requirement for this fully accredited master programme in Physics is a University of Namibia (UNAM) NQF Level 8 degree in Physics or equivalent degree from a recognised institution. <br> The applicant will be accepted based on his/her undergraduate academic record with an average mark of at least 60%. "]
+},
+{
+  "tag": "Master_of_Science_in_Nuclear_Science",
+  "patterns": [
+    "What are the admission requirement for the Master of Science in Nuclear Science",
+    "Master of Science in Nuclear Science",
+    "Nuclear Science",
+    "MSc Nuclear Science",
+    "MSc in Nuclear Science program details",
+    "How can I enroll in the Nuclear Science master's?",
+    "Tell me about the graduate Nuclear Science program",
+    "What bachelor's degree is required for the Nuclear Science MSc?",
+    "Are there practical experiments in the Nuclear Science master's?",
+    "Nuclear Science MSc program structure",
+    "Can you explain the graduate Nuclear Science curriculum?",
+    "What career paths open up with a Nuclear Science MSc?",
+    "Nuclear Science master's program application process",
+    "How selective is the Nuclear Science MSc admission?",
+    "Nuclear Science graduate program entry criteria"
+  ],
+  "responses": ["The admission requirement for the Master of Science in Nuclear Science programme is a NQF Level 8 degree or its equivalent with major in Physics, Chemistry or Mathematics. <br> And with one of the following disciplines on at least a second-year level: Chemistry, Mathematics, Physics, Geology and Computer Science, (but excluding Mathematics/Computer Science and Mathematics/Geology combinations). <br> The applicant will be accepted based on his/her undergraduate academic record with an average mark of 60%"]
+},
+{
+  "tag": "Master_of_Science_in_Chemistry",
+  "patterns": [
+    "What are the admission requirement for the Master of Science in Chemistry",
+    "Master of Science in Chemistry",
+    "Master Chemistry",
+    "MSc Chemistry",
+    "MSc Chemistry program details",
+    "How do I apply for the Chemistry master's program?",
+    "Tell me about the graduate Chemistry program at UNAM",
+    "What GPA is needed for the Chemistry MSc?",
+    "Is there a thesis requirement in the Chemistry master's?",
+    "Chemistry MSc curriculum overview",
+    "Can you explain the research opportunities in the Chemistry MSc?",
+    "What specializations are offered in the Chemistry master's?",
+    "Chemistry graduate program admission process",
+    "How long is the Chemistry MSc program?",
+    "Chemistry master's degree entry requirements"
+  ],
+  "responses": ["The Master of Science in Chemistry programme is open to all Bachelor of Science graduates with Chemistry or Biochemistry as one of their majors respectively. <br> The admission to the MSc programme of the holders of the Bachelor of Science in Chemistry or Biochemistry degree is not automatic. The applicants will be accepted on the basis of their undergraduate record. An average mark of 60% is required. <br> The course normally extends over a minimum period of two years for full-time students"]
+},
+{
+  "tag": "Master_of_Science_in_Renewable_Energy",
+  "patterns": [
+    "What are the admission requirement for the Master of Science in Renewable Energy",
+    "Master of Science in Renewable Energy",
+    "Mater in Renewable Energy",
+    "Photovoltaics",
+    "MSc Renewable Energy program details",
+    "How can I enroll in the Renewable Energy master's?",
+    "Tell me about the graduate Renewable Energy program",
+    "What undergraduate degree is required for the Renewable Energy MSc?",
+    "Are there practical projects in the Renewable Energy master's?",
+    "Renewable Energy MSc course structure",
+    "Can you explain the Photovoltaics specialization in the MSc?",
+    "What career prospects are there with a Renewable Energy MSc?",
+    "Renewable Energy master's program application criteria",
+    "How competitive is the Renewable Energy MSc admission?",
+    "Renewable Energy graduate program entry requirements"
+  ],
+  "responses": ["MSc applicants for Photovoltaics or Renewable Energy Materials may be required to complete selected undergraduate NQF level 8 courses and obtain a 60% average in those modules before applying for admission to this qualification. <br> Applicants planning to specialise in Renewable Energy Materials must register and complete (for non-degree purposes): Inorganic Chemistry III (CHM3802), Organic Chemistry III (CHM3811), Physical Chemistry III (CHM3831), and Instrumental Analysis II (CHM3801). <br> Applicants planning to specialise in Photovoltaics must register and complete (for non-degree purposes): Quantum Mechanics (PHY3811), Statistical Mechanics (PHY3831), and Solid-State Physics (PHY3812)"]
+},
+{
+  "tag": "PHD_in_Physics",
+  "patterns": [
+    "What are the admission requirement for a PHD in Physics",
+    "PHD in Physics",
+    "PHD Physics",
+    "Admission PHD Physics",
+    "PHD Physics program details",
+    "How do I apply for the Physics doctoral program?",
+    "Tell me about the Physics PhD at UNAM",
+    "What master's degree is needed for the Physics PhD?",
+    "Is there a research proposal required for the Physics PhD application?",
+    "Physics PhD program structure",
+    "Can you explain the Physics doctoral curriculum?",
+    "What research areas are available in the Physics PhD?",
+    "Physics doctoral program admission process",
+    "How long does it take to complete a PhD in Physics?",
+    "Physics doctorate entry requirements"
+  ],
+  "responses": ["ADMISSION REQUIREMENTS: <br> The entry requirements for are the possession of a NQF level 9 master’s degree from a recognized institution as well as a well-written concept note developed together with a prospective supervisor in the Department of Physics"]
+},
+{
+  "tag": "MSC_and_PHD_in_Chemistry_by_Thesis",
+  "patterns": [
+    "What are the admission requirement for the MSC and PHD Chemistry by Thesis",
+    "MSC and PHD Chemistry by Thesis",
+    "Chemistry by Thesis",
+    "PHD Chemistry",
+    "Chemistry by thesis program details",
+    "How can I apply for the Chemistry thesis-based graduate programs?",
+    "Tell me about the Chemistry MSc and PhD by thesis at UNAM",
+    "What degrees are required for Chemistry graduate programs?",
+    "Is a research proposal needed for Chemistry MSc/PhD application?",
+    "Chemistry graduate programs structure",
+    "Can you explain the difference between MSc and PhD in Chemistry?",
+    "What research topics are available in Chemistry graduate studies?",
+    "Chemistry thesis-based programs admission criteria",
+    "How long do the Chemistry MSc and PhD programs take?",
+    "Chemistry graduate research programs entry requirements"
+  ],
+  "responses": ["ADMISSION REQUIREMENTS: <br> Student must be in possession of NQF level 8 Honours degree to be admitted for MSc by thesis or NQF level 9 masters degree for PHD by thesis from a recognized institution. In addition, students must submit a well-written concept note developed together with a prospective supervisor in the Department of Physics, Chemistry & Material Science. "]
+},
+{
+      "tag": "Bachelor_of_Science_in_Geology",
+      "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Geology", 
+    "Bachelor of Science in Geology", 
+    "Geology",
+    "Bachelor in Geology",
+    "Geology program details",
+    "What are the requirements for Bachelor of Science in Geology?", 
+    "Eligibility criteria for BSc Geology", 
+    "How can I get into Geology program?", 
+    "Admission requirements for Geology course", 
+    "What subjects are needed for Geology?", 
+    "How to apply for BSc in Geology?", 
+    "Criteria for joining Geology at UNAM", 
+    "UNAM Geology program admission process", 
+    "BSc Geology application details", 
+    "Entry qualifications for Geology at UNAM"
+],
+      "responses": ["To register for the Bachelor in Geology, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> Option 1: <br> -Pass in five different subjects, including three subjects at NSSCAS level with a “D” average or higher (specifically Mathematics, Physics, and Chemistry). <br> -Two subjects at NSSCO level with a “C” or higher, one of which must be English. <br> Candidates lacking the appropriate subjects or grades on NSSCAS as outlined above can opt to enroll in an Extended Programme, which will take one additional year to complete. <br> For Namibian school leaving certificates issued before 2021: <br> -Pass in five different subjects, including English, Mathematics, and Physical Science, all at a minimum of “C” on NSSCO. <br> NB: There are also conditional entry pathways available for the program."]
+    },
+    {
+      "tag": "Master_of_Science_in_Petroleum_Geology",
+      "patterns": [
+    "What are the admission requirement for the Master of Science in Petroleum Geology", 
+    "Master of Science in Petroleum Geology", 
+    "Petroleum Geology",
+    "MSc Petroleum Geology",
+    "Petroleum Geology program details",
+    "What qualifications are required for MSc Petroleum Geology?", 
+    "How to join Master of Science in Petroleum Geology?", 
+    "MSc Petroleum Geology entry requirements", 
+    "Eligibility for Petroleum Geology MSc", 
+    "What do I need for MSc Petroleum Geology?", 
+    "Admission process for MSc in Petroleum Geology", 
+    "UNAM Petroleum Geology Master's requirements", 
+    "How to apply for MSc in Petroleum Geology?", 
+    "MSc Petroleum Geology application process", 
+    "Entry criteria for Petroleum Geology program at UNAM"
+],
+     "responses": ["To register for the Master of Science in Petroleum Geology, a candidate must hold a BSc Geology Honours degree (NQF level 8) or a recognized equivalent qualification. <br> The applicants will be accepted on the basis of their undergraduate record (grades and course contents). An average mark of 60% is required. For overseas students equivalent qualifications are required. International students whose tertiary education was not in English must prove proficiency in English (IELTS 7.0 or better). <br> For all candidates interviews shall be considered to confirm their suitability for admission. The number of successful applicants will be limited by the availability of resources. <br> NB: There are also conditional entry pathways available for the program."]
+    },
+    {
+      "tag": "Master_of_Science_in_Applied_Geology",
+      "patterns": [
+    "What are the admission requirement for the Master of Science in Applied Geology", 
+    "Master of Science in Applied Geology", 
+    "Applied Geology",
+    "MSc Applied Geology",
+    "Applied Geology program details",
+    "What is required for MSc in Applied Geology?", 
+    "How can I apply for MSc in Applied Geology?", 
+    "Eligibility criteria for Master of Science in Applied Geology", 
+    "What do I need to study MSc in Applied Geology?", 
+    "Admission requirements for MSc Applied Geology", 
+    "MSc in Applied Geology entry qualifications", 
+    "How to enroll in MSc Applied Geology?", 
+    "Entry process for Applied Geology MSc", 
+    "Requirements for MSc in Applied Geology at UNAM", 
+    "Applied Geology Master's application process"
+],
+      "responses": ["To register for an Master of Science in Applied Geology postgraduate degree programme: <br> A candidate must hold a BSc Honours degree in Geology (NQF level 8) or a recognized equivalent qualification. <br> The applicants will be accepted on the basis of their undergraduate record. An average mark of minimum 60% is required. The number of successful applicants will be limited by the availability of resources."]
+    },
+    {
+      "tag": "Bachelor_of_Science_in_Wildlife_and_Tourism_Management",
+      "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Wildlife and Tourism Management", 
+    "Bachelor of Science in Wildlife and Tourism Management", 
+    "Wildlife and Tourism Management",
+    "Bachelor in Wildlife and Tourism Management",
+    "Wildlife and Tourism Management program details",
+    "What are the requirements for BSc in Wildlife and Tourism Management?", 
+    "Eligibility criteria for Wildlife and Tourism Management degree", 
+    "How can I apply for Bachelor of Science in Wildlife and Tourism Management?", 
+    "Entry requirements for Wildlife and Tourism Management course", 
+    "Admission details for Wildlife and Tourism Management at UNAM", 
+    "Wildlife and Tourism Management program qualifications", 
+    "BSc Wildlife and Tourism Management application process", 
+    "Criteria for joining Wildlife and Tourism Management at UNAM", 
+    "How to get into Wildlife and Tourism Management program?", 
+    "What qualifications are needed for BSc Wildlife and Tourism Management?"
+],
+      "responses": ["To register for the Bachelor in Wildlife and Tourism Management, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> Option 1: <br> -Pass in five different subjects, including two subjects at NSSCAS level with a “D” average or higher. Acceptable subjects include: Biology, Geography, Agriculture, Chemistry and Physics, History. <br> -Three subjects at NSSCO level with a C average or higher, including two of the subjects must be English and Mathematics with a minimum grade of C. <br> -The remaining subject can be either Biology, Geography, Chemistry and Physics, or History. <br> Option 2: <br> -Pass in five different subjects, including three subjects at NSSCAS level with a D average or higher. <br> -Two subjects at NSSCO level with a D average or higher, including Mathematics and English, with English at a minimum grade of C. <br> For Namibian school leaving certificates issued before 2021: <br> -Pass in five different subjects, including two subjects at NSSCH level with a grade of 4 or higher. <br> -Three subjects at NSSCO level with a grade of C or higher. Additionally, English, Mathematics, and either Biology or Geography must be at a minimum grade of C on NSSCO. <br> Option 2: <br> -Pass in five different subjects, including three subjects at NSSCH level with a grade of 4 or higher. <br> -Two subjects at NSSCO level with a grade of C or higher. Additionally, English, Mathematics, and either Biology or Geography must be at a minimum grade of C on NSSCO. <br> NB: There are also conditional entry pathways available for the program."]
+    },
+ {
+      "tag": "Diploma_in_Applied_Statistics",
+      "patterns": [
+    "What are the admission requirements for the Diploma in Applied Statistics",
+    "Diploma in Applied Statistics",
+    "Diploma Applied Statistics",
+    "Applied Stats",
+    "Diploma in Applied Statistics program details",
+    "What is required for Diploma in Applied Statistics?", 
+    "Eligibility for Diploma in Applied Stats", 
+    "How can I join Applied Statistics diploma?", 
+    "Requirements for Diploma in Applied Statistics at UNAM", 
+    "How to apply for Applied Statistics diploma?", 
+    "Admission criteria for Diploma in Applied Statistics", 
+    "What subjects are needed for Diploma in Applied Statistics?", 
+    "Applied Statistics diploma admission details", 
+    "UNAM Applied Statistics diploma requirements", 
+    "Diploma Applied Statistics course entry requirements"
+],
+      "responses": ["To register for the Diploma in Applied Statistics, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> - A pass in five different subjects, achieving a minimum of 22 points on the UNAM scale. <br> - One subject at NSSCAS level with a minimum grade of 'E' or higher. <br> - Four subjects at NSSCO level with a grade of D or higher, including English and Mathematics must both be at a minimum grade of D at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> - A pass in five different subjects, achieving a minimum of 22 points on the UNAM scale. <br> - Five subjects at ordinary level (NSSCO) OR a combination of ordinary level (NSSCO) and higher level (NSSCH). <br> - English and Mathematics must both be at a minimum grade of D at NSSCO level."]
+    },
+    {
+      "tag": "Diploma_in_Computing",
+      "patterns": [
+    "What are the admission requirements for the Diploma in Computing",
+    "Diploma in Computing",
+    "Diploma Computing",
+    "Dip Computing",
+    "Diploma in Computing program details",
+    "What is required for Diploma in Computing?", 
+    "Eligibility for Diploma in Computing", 
+    "How to join Diploma in Computing?", 
+    "Requirements for Diploma in Computing at UNAM", 
+    "Diploma in Computing admission process", 
+    "How to apply for Diploma in Computing?", 
+    "What subjects do I need for Computing diploma?", 
+    "Admission details for Diploma in Computing", 
+    "Entry requirements for Diploma Computing program", 
+    "UNAM Computing diploma eligibility"
+],
+     "responses": ["To register for the Diploma in Computing, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> - A pass in five different subjects, achieving a minimum of 22 points on the UNAM scale. <br> - One subject at NSSCAS level with a minimum grade of 'E' or higher. <br> - Four subjects at NSSCO level with a grade of D or higher, including English and Mathematics must both be at a minimum grade of D at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> - A pass in five different subjects, achieving a minimum of 22 points on the UNAM scale. <br> - Five subjects at ordinary level (NSSCO) OR a combination of ordinary level (NSSCO) and higher level (NSSCH). <br> - English and Mathematics must both be at a minimum grade of D at NSSCO level."]
+   },
+   {
+      "tag": "Bachelor_of_Science_in_Statistics",
+     "patterns": [
+    "What are the admission requirements for the Bachelor of Science in Statistics",
+    "Bachelor of Science in Statistics",
+    "Statistics",
+    "Bachelor of Stats",
+    "Bachelor of Statistics program details",
+    "What are the entry requirements for Bachelor of Science in Statistics?", 
+    "How to join BSc in Statistics?", 
+    "Statistics degree admission criteria", 
+    "Requirements for Statistics program at UNAM", 
+    "What do I need to study BSc Statistics?", 
+    "Admission process for BSc in Statistics", 
+    "Eligibility for Bachelor of Statistics at UNAM", 
+    "BSc Statistics program entry requirements", 
+    "How can I apply for BSc in Statistics?", 
+    "Statistics degree course requirements"
+],
+    "responses": [ "To register for the Bachelor in Statistics, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> - A pass in a total of five different subjects, achieving a minimum of 27 points on the UNAM scale. <br> - Two subjects at NSSCAS level with a D average or higher, one of which must be Mathematics. <br> - Three subjects at NSSCO level with a C average or higher, including English, which must be at a minimum grade of C at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> - Two subjects on NSSCH with grades of 4 or higher. <br> - Three subjects on NSSCO with grades of C or higher, including English and Mathematics, both of which must be at a minimum grade of C at NSSCO level. <br> - Alternatively, candidates may have three subjects at higher level (NSSCH) with grades of 4 or higher. <br> - Two subjects at ordinary level (NSSCO) with grades of C or higher. <br> - English and Mathematics must be at a minimum grade of C at NSSCO level. <br> NB: There are also conditional entry pathways available for the program."]
+   },
+   {
+      "tag": "Bachelor_of_Science_in_Population_Studies",
+     "patterns": [
+    "What are the admission requirements for the Bachelor of Science in Population Studies",
+    "Bachelor of Science in Population Studies",
+    "Population Studies",
+    "Population",
+    "Population studies program details",
+    "What is required for Bachelor of Science in Population Studies?", 
+    "Eligibility for BSc in Population Studies", 
+    "Population Studies admission criteria", 
+    "How can I join Population Studies program?", 
+    "Requirements for BSc in Population Studies at UNAM", 
+    "Population Studies degree application process", 
+    "Entry requirements for Population Studies", 
+    "How to apply for Bachelor of Science in Population Studies?", 
+    "UNAM Population Studies degree requirements", 
+    "What subjects do I need for Population Studies degree?"
+],
+    "responses": ["To register for the Bachelor in Population Studies, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> - A pass in a total of five different subjects, achieving a minimum of 27 points on the UNAM scale. <br> - Two subjects at NSSCAS level with a D average or higher, one of which must be Mathematics. <br> - Three subjects at NSSCO level with a C average or higher, including English, which must be at a minimum grade of C at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> - Two subjects on NSSCH with grades of 4 or higher. <br> - Three subjects on NSSCO with grades of C or higher, including English and Mathematics, both of which must be at a minimum grade of C at NSSCO level. <br> - Alternatively, candidates may have three subjects at higher level (NSSCH) with grades of 4 or higher. <br> - Two subjects at ordinary level (NSSCO) with grades of C or higher. <br> - English and Mathematics must be at a minimum grade of C at NSSCO level. <br> NB: There are also conditional entry pathways available for the program."]
+   },   
+{
+      "tag": "Bachelor_of_Science_in_Mathematics",
+      "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Mathematics", 
+    "Bachelor of Science in Mathematics", 
+    "Mathematics",
+    "Maths",
+    "Bachelor of Mathematics program details",
+    "What is required for Bachelor of Science in Mathematics?", 
+    "Eligibility for BSc in Mathematics", 
+    "How to join BSc Mathematics?", 
+    "Requirements for Maths degree at UNAM", 
+    "Admission process for Bachelor of Mathematics", 
+    "How can I apply for BSc in Mathematics?", 
+    "Maths degree entry requirements", 
+    "UNAM Mathematics course requirements", 
+    "What do I need to study Mathematics at UNAM?", 
+    "Bachelor of Science Maths admission details"
+],
+      "responses": ["To register for the Bachelor in Mathematics, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> -A pass in a total of five different subjects, achieving a minimum of 27 points on the UNAM scale. <br> -Two subjects at NSSCAS level with a D average or higher, one of which must be Mathematics. <br> -Three subjects at NSSCO level with a C average or higher, including English, which must be at a minimum grade of C at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> -Two subjects on NSSCH with grades of 4 or higher. <br> -Three subjects on NSSCO with grades of C or higher, including English and Mathematics, both of which must be at a minimum grade of C at NSSCO level. <br> -Alternatively, candidates may have three subjects at higher level (NSSCH) with grades of 4 or higher. <br> -Two subjects at ordinary level (NSSCO) with grades of C or higher. <br> -English and Mathematics must be at a minimum grade of C at NSSCO level. <br> NB: There are also conditional entry pathways available for the program."]
+   },
+   {
+      "tag": "Bachelor_of_Science_in_Quantitative_Finance",
+     "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Quantitative Finance", 
+    "Bachelor of Science in Quantitative Finance", 
+    "Quantitative Finance",
+    "Quanti Finance",
+    "Quantitative Finance program details",
+    "What is required for Bachelor of Science in Quantitative Finance?", 
+    "Eligibility for BSc in Quantitative Finance", 
+    "How can I join Quantitative Finance program?", 
+    "Requirements for Quantitative Finance degree at UNAM", 
+    "Quantitative Finance admission process", 
+    "How to apply for BSc in Quantitative Finance?", 
+    "What subjects are needed for Quantitative Finance?", 
+    "Entry requirements for Quantitative Finance degree", 
+    "UNAM Quantitative Finance program requirements", 
+    "BSc Quantitative Finance course eligibility"
+],
+    "responses": ["To register for the Bachelor in Quantitative Finance, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> -A pass in a total of five different subjects, achieving a minimum of 27 points on the UNAM scale. <br> -Two subjects at NSSCAS level with a D average or higher, one of which must be Mathematics. <br> -Three subjects at NSSCO level with a C average or higher, including English, which must be at a minimum grade of C at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> -Two subjects on NSSCH with grades of 4 or higher. <br> -Three subjects on NSSCO with grades of C or higher, including English and Mathematics, both of which must be at a minimum grade of C at NSSCO level. <br> -Alternatively, candidates may have three subjects at higher level (NSSCH) with grades of 4 or higher. <br> -Two subjects at ordinary level (NSSCO) with grades of C or higher. <br> -English and Mathematics must be at a minimum grade of C at NSSCO level. <br> NB: There are also conditional entry pathways available for the program."]
+    },
+    {
+      "tag": "Bachelor_of_Science_in_Data_Science",
+      "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Data Science", 
+    "Bachelor of Science in Data Science", 
+    "Data Science",
+    "Data",
+    "Data Science program details",
+    "What is required for Bachelor of Science in Data Science?", 
+    "Eligibility for BSc in Data Science", 
+    "How to join BSc Data Science?", 
+    "Requirements for Data Science degree at UNAM", 
+    "Admission process for Data Science degree", 
+    "What do I need to apply for Data Science at UNAM?", 
+    "Entry requirements for Data Science program", 
+    "UNAM Data Science course requirements", 
+    "How to enroll for BSc Data Science?", 
+    "Data Science degree admission details"
+],
+      "responses": ["To register for the Bachelor in Data Science, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> -A pass in a total of five different subjects, achieving a minimum of 27 points on the UNAM scale. <br> -Two subjects at NSSCAS level with a D average or higher, one of which must be Mathematics. <br> -Three subjects at NSSCO level with a C average or higher, including English, which must be at a minimum grade of C at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> -Two subjects on NSSCH with grades of 4 or higher. <br> -Three subjects on NSSCO with grades of C or higher, including English and Mathematics, both of which must be at a minimum grade of C at NSSCO level. <br> -Alternatively, candidates may have three subjects at higher level (NSSCH) with grades of 4 or higher. <br> -Two subjects at ordinary level (NSSCO) with grades of C or higher. <br> -English and Mathematics must be at a minimum grade of C at NSSCO level. <br> NB: There are also conditional entry pathways available for the program."]
+    },
+ {
+      "tag": "Bachelor_of_Science_in_Computing",
+      "patterns": [
+    "What are the admission requirement for the Bachelor of Science in Computing", 
+    "Bachelor of Science in Computing", 
+    "Computing",
+    "Computer",
+    "Computing program details",
+    "What is required for Bachelor of Science in Computing?",
+    "Eligibility for BSc in Computing",
+    "How to join BSc Computing?",
+    "Requirements for Computing degree at UNAM",
+    "Admission process for Bachelor of Computing",
+    "How can I apply for BSc in Computing?",
+    "Computing degree entry requirements",
+    "UNAM Computing course requirements",
+    "What do I need to study Computing at UNAM?",
+    "Bachelor of Science Computing admission details"
+],
+      "responses": ["To register for the Bachelor in Computing, you must meet specific admission criteria based on your Namibian Senior Secondary Certificate (NSSC): <br> Current NSSC Requirements: <br> -A pass in a total of five different subjects, achieving a minimum of 27 points on the UNAM scale. <br> -Two subjects at NSSCAS level with a D average or higher, one of which must be Mathematics. <br> -Three subjects at NSSCO level with a C average or higher, including English, which must be at a minimum grade of C at NSSCO level. <br> For Namibian school leaving certificates issued before 2021: <br> -Two subjects on NSSCH with grades of 4 or higher. <br> -Three subjects on NSSCO with grades of C or higher, including English and Mathematics, both of which must be at a minimum grade of C at NSSCO level. <br> -Alternatively, candidates may have three subjects at higher level (NSSCH) with grades of 4 or higher. <br> -Two subjects at ordinary level (NSSCO) with grades of C or higher. <br> -English and Mathematics must be at a minimum grade of C at NSSCO level. <br> NB: There are also conditional entry pathways available for the program."]
+    },
+    {
+      "tag": "Articulation_Programme_for_Computing",
+      "patterns": [
+    "What are the admission requirement for the Articulation Programme for Computing", 
+    "Articulation Programme for Computing", 
+    "Articulation Computing",
+    "Articulation Computer",
+    "Articulation program for Computing details",
+    "What is required for Articulation Programme for Computing?",
+    "Eligibility for Articulation in Computing",
+    "How to join Articulation Computing program?",
+    "Requirements for Articulation Computing at UNAM",
+    "Admission process for Articulation in Computing",
+    "How can I apply for Articulation Computing?",
+    "Articulation in Computing entry requirements",
+    "UNAM Articulation in Computing details",
+    "What do I need for Computing Articulation?",
+    "Articulation Programme Computing admission details"
+],
+      "responses": ["CRITERIA FOR ADMISSION: <br> The applicant must be in possession of either a BSc degree in Computer Science or related qualification at NQF level 7, or A pre-NQF BSc degree in Computer Science or equivalent qualification from a recognized institution. <br> Students who have completed a double major Bachelor of Science degree in which one of the majors was Computer Science or Information Technology may be required to register for a number of undergraduate modules for non-degree purposes in order to gain admission into this programme. "]
+    },
+    {
+      "tag": "Master_of_Science_in_Information_Technology",
+      "patterns": [
+    "What are the admission requirement for the Master of Science in Information Technology", 
+    "Master of Science in Information Technology", 
+    "Information Technology",
+    "Master of IT",
+    "IT Master program details",
+    "What is required for Master of Science in Information Technology?",
+    "Eligibility for MSc in IT",
+    "How to join MSc IT program?",
+    "Requirements for MSc IT at UNAM",
+    "Admission process for MSc in Information Technology",
+    "How can I apply for MSc IT?",
+    "IT Master's program entry requirements",
+    "UNAM MSc IT course details",
+    "What do I need to study IT at UNAM?",
+    "Master's in IT admission details"
+],
+      "responses": ["ADMISSION REQUIREMENTS: <br> The applicants will be accepted on the basis of their undergraduate records. The Master of Science in Information Technology programme is open to all Bachelor’s degree holders with Computer Science major or Computer related field and with a minimum average pass mark of 60%."]
+    },
+    {
+      "tag": "Master_of_Science_in_Applied_Statistics_and_Demography",
+      "patterns": [
+    "What are the admission requirement for the Master of Science in Applied Statistics and Demography", 
+    "Master of Science in Applied Statistics and Demography", 
+    "Master Applied Statistics and Demography",
+    "Statistics and Demography",
+    "Statistics and Demography program details",
+    "What is required for Master of Science in Applied Statistics and Demography?",
+    "Eligibility for MSc in Applied Statistics and Demography",
+    "How to join MSc Applied Statistics and Demography program?",
+    "Requirements for MSc Applied Statistics and Demography at UNAM",
+    "Admission process for MSc in Statistics and Demography",
+    "How can I apply for MSc Applied Statistics and Demography?",
+    "Statistics and Demography Master's program entry requirements",
+    "UNAM MSc Applied Statistics and Demography course details",
+    "What do I need to study Applied Statistics and Demography?",
+    "Master's in Applied Statistics and Demography admission details"
+],
+      "responses": ["ADMISSION REQUIREMENTS: <br> The Master of Science Programme in Applied Statistics and Demography will require a minimum of a BSc, with a Statistics or Population Studies Major, in the lower second-class division (60-69%) or an equivalent qualification. "]
+    },
+    {
+      "tag": "Master_of_Science_in_Mathematics",
+      "patterns": [
+    "What are the admission requirement for the Master of Science in Mathematics", 
+    "Master of Science in Mathematics", 
+    "Master Mathematics",
+    "Master Maths",
+    "Master in Mathematics program details",
+    "What is required for Master of Science in Mathematics?",
+    "Eligibility for MSc in Mathematics",
+    "How to join MSc Mathematics program?",
+    "Requirements for MSc Mathematics at UNAM",
+    "Admission process for MSc in Mathematics",
+    "How can I apply for MSc Mathematics?",
+    "Mathematics Master's program entry requirements",
+    "UNAM MSc Mathematics course details",
+    "What do I need to study MSc Mathematics at UNAM?",
+    "Master's in Mathematics admission details"
+],
+      "responses": ["ADMISSION REQUIREMENTS: <br> The MSc Programme in the Department of Mathematics will require a minimum of a BSc, with a Mathematics Major, in the lower second class division or an equivalent qualification at NQF Level 8. That means applicants will need to have attained an average mark of at least 60% in their undergraduate programme. <br> Students who have completed the old BSc Programme in Mathematics must do all courses of the current fourth year programme in order to gain admission to the MSc Programme."]
+    },
+ {
+      "tag": "PHD_in_Mathematics",
+      "patterns": [
+    "What are the admission requirement for the PHD in Mathematics", 
+    "PHD in Mathematics", 
+    "PHD Mathematics",
+    "PHD Maths",
+    "PHD in Mathematics program details",
+    "What is required for PhD in Mathematics?",
+    "Eligibility for PhD in Maths",
+    "How to join PhD program in Mathematics?",
+    "Requirements for PhD in Maths at UNAM",
+    "Admission process for PhD in Mathematics",
+    "How can I apply for PhD in Mathematics?",
+    "PhD in Mathematics entry requirements",
+    "UNAM PhD in Mathematics details",
+    "What do I need to study PhD Mathematics at UNAM?",
+    "PhD in Mathematics admission details"
+],
+      "responses": ["ADMISSION REQUIREMENTS: <br> The entry requirements for PHD Mathematics are the possession of a NQF level 9 master’s degree from a recognized institution as well as a well written concept note developed together with a prospective supervisor in the Department of Mathematics."]
+    },
+    {
+      "tag": "Altrnative_pathways",
+      "patterns": [
+    "What are the conditional entry pathways for the bachelor of Biochemistry",
+    "What are the conditional entry pathways for the bachelor of Microbiology",
+    "What are the conditional entry pathways for the bachelor of Ecology and Biodiversity Conservation",
+    "What are the conditional entry pathways for the bachelor of Environmental and Geographical Sciences",
+    "What are the conditional entry pathways for the bachelor of Forestry and Rangeland Management",
+    "What other ways are there to enter Biochemistry?",
+    "Eligibility for alternative entry to Microbiology",
+    "How to join Ecology and Biodiversity Conservation via conditional entry?",
+    "Requirements for alternative entry into Environmental and Geographical Sciences",
+    "Conditional entry for Forestry and Rangeland Management",
+    "UNAM conditional entry for Biochemistry",
+    "What is the Mature Age Entry for Microbiology?",
+    "How can I get into Ecology with a conditional pathway?",
+    "UNAM readiness program details for Environmental and Geographical Sciences",
+    "Alternative pathways to study Forestry and Rangeland Management"
+],
+      "responses": ["Conditional entry pathways for this program include Mature Age Entry (MAE) and Prior Learning Recognition (RPL). <br> To qualify for MAE, you must be at least 25 years old, have five years of work experience in related fields, hold a senior secondary education certificate, and pass four MAE papers (English Proficiency, General Knowledge, Biology, and Chemistry) <br> With an average of 60%, with no paper below 50%. <br> However if you do not qualify for MEA you can register for a Diploma if you pass five different subjects at the ordinary level (NSSCO) with at least 24 points, including a minimum grade of D in English. <br> Even more better, you can register for the UNAM Readiness Program"]
+    },
+    {
+      "tag": "Other_ways",
+      "patterns": [
+    "What are the conditional entry pathways for the bachelor of Physics", 
+    "What are the conditional entry pathways for the bachelor of Chemistry", 
+    "What are the conditional entry pathways for the bachelor of Geology",
+    "What are the conditional entry pathways for the bachelor of Wildlife ad Tourism Management",
+    "What are the conditional entry pathways for the bachelor of Statistics",
+    "What are the alternative ways to enter Physics?",
+    "Eligibility for conditional entry to Chemistry",
+    "How to join Geology via conditional entry?",
+    "Requirements for alternative entry into Wildlife and Tourism Management",
+    "Conditional entry for Statistics at UNAM",
+    "UNAM conditional entry for Physics",
+    "What is the Mature Age Entry for Chemistry?",
+    "How can I get into Geology with a conditional pathway?",
+    "UNAM readiness program details for Wildlife and Tourism Management",
+    "Alternative pathways to study Statistics"
+],
+      "responses": ["Conditional entry pathways for this program include Mature Age Entry (MAE) and Prior Learning Recognition (RPL). <br> To qualify for MAE, you must be at least 25 years old, have five years of work experience in related fields, hold a senior secondary education certificate, and pass four MAE papers (English Proficiency, General Knowledge, Biology, and Chemistry) <br> With an average of 60%, with no paper below 50%. <br> However if you do not qualify for MEA you can register for a Diploma if you pass five different subjects at the ordinary level (NSSCO) with at least 24 points, including a minimum grade of D in English. <br> Even more better, you can register for the UNAM Readiness Program"]
+    },
+    {
+      "tag": "based_admission",
+      "patterns": [
+    "What are the conditional entry pathways for the bachelor of Population Studies",
+    "What are the conditional entry pathways for the bachelor of Mathematics",
+    "What are the conditional entry pathways for the bachelor of Quantitative Finance",
+    "What are the conditional entry pathways for the bachelor Data Science",
+    "What are the conditional entry pathways for the bachelor of Computing",
+    "What are the alternative ways to enter Population Studies?",
+    "Eligibility for conditional entry to Mathematics",
+    "How to join Quantitative Finance via conditional entry?",
+    "Requirements for alternative entry into Data Science",
+    "Conditional entry for Computing at UNAM",
+    "UNAM conditional entry for Population Studies",
+    "What is the Mature Age Entry for Quantitative Finance?",
+    "How can I get into Mathematics with a conditional pathway?",
+    "UNAM readiness program details for Data Science",
+    "Alternative pathways to study Computing"
+],
+      "responses": ["Conditional entry pathways for this program include Mature Age Entry (MAE) and Prior Learning Recognition (RPL). <br> To qualify for MAE, you must be at least 25 years old, have five years of work experience in related fields, hold a senior secondary education certificate, and pass four MAE papers (English Proficiency, General Knowledge, Biology, and Chemistry) <br> With an average of 60%, with no paper below 50%. <br> However if you do not qualify for MEA you can register for a Diploma if you passed five different subjects at the ordinary level (NSSCO) with at least 24 points, including a minimum grade of D in English. <br> Even more better, you can register for the UNAM Readiness Program"]
+    },
+    {
+      "tag": "readiness_program",
+      "patterns": [
+    "What is readiness program",
+    "What do you mean by readiness program",
+    "readiness program",
+    "explain readiness program",
+    "UNAM readiness",
+    "What is the UNAM readiness program?",
+    "How can I apply for the readiness program at UNAM?",
+    "Who is eligible for the readiness program?",
+    "Details on the readiness program at UNAM",
+    "How to join the UNAM readiness program?",
+    "UNAM readiness program eligibility",
+    "Can I enroll in the readiness program?",
+    "Readiness program at UNAM details",
+    "What are the benefits of the readiness program?",
+    "How long does the UNAM readiness program last?"
+],
+      "responses": ["The program is designed for students seeking to enroll in UNAM degrees and diplomas in Agriculture, Mathematics, Science, Education, Human Sciences, and Commerce & Management Sciences. <br> It is intended for learners who have attempted Advanced Subsidiary (AS) level or legacy learners but do not meet the minimum UNAM admission requirements. <br> Successful applicants can attend the program for free."]
+    },
+{
+      "tag": "prior_learning",
+      "patterns": [
+    "What is prior learning recognition",
+    "What do you mean by prior learning recognition",
+    "prior learning recognition",
+    "explain prior learning recognition",
+    "what is RPL",
+    "What is RPL at UNAM?",
+    "How does prior learning recognition work?",
+    "Can I apply through RPL?",
+    "What qualifies for prior learning recognition?",
+    "RPL eligibility at UNAM",
+    "How can I apply through RPL?",
+    "Recognition of Prior Learning process",
+    "What is needed for RPL?",
+    "How does UNAM recognize prior learning?",
+    "Who can apply through RPL at UNAM?"
+],
+      "responses": ["Recognition of Prior Learning (RPL) is a way to gain access to UNAM academic programs by assessing an individual's job-acquired knowledge and skills. The purpose of RPL is to evaluate and recognize these competencies for potential admission and qualification at the university."]
+    },
+    {
+      "tag": "general_undergraduate_degree",
+      "patterns": [
+    "What are the admission requirements for a general undergraduate degree?",
+    "Entry criteria for a general undergraduate program?",
+    "What is needed for general undergraduate admission?",
+    "General undergraduate degree admission standards?",
+    "Requirements to apply for a general undergraduate degree?",
+    "General undergraduate program entry requirements?",
+    "What qualifications do I need for a general undergraduate degree?",
+    "How can I qualify for a general undergraduate degree?",
+    "Criteria for admission to a general undergraduate degree?",
+    "What are the basic requirements for a general undergraduate degree?",
+    "General undergraduate degree eligibility?",
+    "What is the academic criteria for a general undergraduate program?",
+    "How do I get accepted into a general undergraduate degree?",
+    "What qualifications are needed for general undergraduate admission?",
+    "General undergraduate degree entrance requirements?"
+],
+      "responses": ["Subject to School Special Regulations, the normal basic requirement for entrance to undergraduate degree programmes is: <br> A minimum of 27 points and a pass in five different subjects as follows: <br> -Two subjects on higher level (NSSCH) with a 4 or higher <br> -Three subjects on ordinary level (NSSCO) with a C or higher, and English must be at minimum C at NSSCO level <br> Or <br> A pass in five different subjects as follows: <br> -Three subjects on higher level (NSSCH) with a 4 or higher <br> -Two subjects on ordinary level (NSSCO) with a D or higher, and English must be at minimum C at NSSCO level."
+]
+    },
+    {
+      "tag": "basic_diploma",
+      "patterns": [
+   "What are the admission requirements for a diploma program?",
+   "Entry criteria for a basic diploma?",
+   "What is needed for diploma program admission?",
+   "Basic diploma admission requirements?",
+   "Requirements to apply for a basic diploma?",
+   "Diploma program entry requirements?",
+   "What qualifications do I need for a basic diploma?",
+   "How can I qualify for a diploma program?",
+   "Criteria for admission to a basic diploma?",
+   "What are the basic requirements for a diploma program?",
+   "Basic diploma program eligibility?",
+   "What is the academic criteria for a basic diploma?",
+   "How do I get accepted into a diploma program?",
+   "What qualifications are needed for basic diploma admission?",
+   "Diploma program entrance requirements?"
+],
+      "responses": ["Subject to School Specific Regulations, the normal basic requirement for entrance to undergraduate diploma programmes is: <br> Five subjects on NSSCO with a minimum of 24 points, and English must be a minimum D at NSSCO Level. <br> OR <br> A pass in five different subjects as follows: <br> -Two subjects on NSSCAS level with a minimum E or higher, <br> -Three subjects on NSSCO level with a D or higher, and English must be at minimum D at NSSCO level."
+]
+    },
+    {
+      "tag": "application_process",
+      "patterns": [
+    "How do I apply to the School of Science?", 
+    "application procedure", 
+    "how to apply",
+    "application",
+    "Register",
+    "What are the steps to apply to UNAM School of Science?",
+    "How do I submit an application for Science?",
+    "UNAM School of Science application process",
+    "How can I register for a course at UNAM?",
+    "What documents are needed for School of Science application?",
+    "What are the application requirements for Science at UNAM?",
+    "Where do I apply for the School of Science?",
+    "How do I start my application for UNAM Science?",
+    "What is the online application process for UNAM?",
+    "Guide to applying to UNAM School of Science"
+],
+      "responses": ["To apply to the School of Science, visit the UNAM admissions website and follow the application process. You'll need to submit your application form, required documents, and pay the application fee. <br> Ensure you meet all deadlines for submission."]
+    },
+    {
+      "tag": "contact_admissions",
+      "patterns": [
+    "How can I contact the admissions office?",
+    "admissions contact", 
+    "Contact information for admissions",
+    "UNAM contact details",
+    "Contact",
+    "How do I contact UNAM admissions office?",
+    "What is the email for UNAM admissions?",
+    "UNAM School of Science admissions phone number",
+    "What are the contact details for UNAM?",
+    "How can I reach UNAM admissions?",
+    "Admissions contact info for School of Science",
+    "Who to contact for UNAM admissions questions?",
+    "Phone number for School of Science admissions office",
+    "How do I get in touch with UNAM for inquiries?",
+    "UNAM admissions office contact details"
+],
+      "responses": ["You can contact the admissions office of the School of Science at admissions@unam.edu.na or call +264 61 206 3111 for more information and assistance."]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+    "When does the academic year start?",
+    "academic calendar",
+    "term dates",
+    "School start",
+    "classes start",
+    "When do classes start at UNAM?",
+    "What are the term dates for UNAM?",
+    "When is the UNAM academic year?",
+    "When does UNAM semester begin?",
+    "Dates for the UNAM academic calendar",
+    "When does school start at UNAM?",
+    "What are the key dates in the UNAM calendar?",
+    "When is the first semester at UNAM?",
+    "When is the registration period at UNAM?",
+    "UNAM academic year start date"
+],
+      "responses": ["The academic year at UNAM typically starts in late February or early March. For the exact dates, please refer to the UNAM academic calendar on the university's website."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+    "See you later",
+    "Goodbye",
+    "I am leaving",
+    "Have a Good Day", 
+    "bye",
+    "Talk to you soon",
+    "See you next time",
+    "Take care",
+    "Farewell",
+    "I am leaving now",
+    "Goodbye for now",
+    "I have to go",
+    "Signing off",
+    "Have a great day",
+    "I'll see you later"
+],
+      "responses": ["Sad to see you go", "Talk to you later", "Goodbye"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+    "Thanks",
+    "Thank you",
+    "That's helpful",
+    "Awesome",
+    "thanks",
+    "Thanks a lot",
+    "Appreciate it",
+    "Thank you very much",
+    "You're the best!",
+    "Thanks for your help",
+    "I appreciate it",
+    "That was helpful, thanks",
+    "Cheers!",
+    "Much appreciated",
+    "Thank you for your assistance"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome!"]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+    "",
+    "wertyiuokjo",
+    "rtew",
+    "fcdygsb",
+    "ueyoqk",
+    "sfdghjkl",
+    "qwertyui",
+    "zzzz",
+    "dfghjkdf",
+    "12345",
+    "???",
+    "Not sure what I said",
+    "I entered something random",
+    "Random text",
+    "Oops, what did I just say?"
+],
+      "responses": ["Sorry, I don't understand that", "Please provide more information", "Not sure I understand"]
+    }
+         
+  ]
+}

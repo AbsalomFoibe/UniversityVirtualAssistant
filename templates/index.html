@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UNAM School of Science Admission Requirements and CEPW</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      background: #ffffff;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    * 
+    .width100 {
+      width: 100%;
+    }
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .hd1 {
+      position: absolute;
+      font-size: 50px;
+      font-weight: 100;
+    }
+    h3 {
+      color: black;
+      font-size: 20px;
+      margin-top: 3px;
+      text-align: center;
+    }
+    #chatbox {
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      margin-top: 40%;
+      border: 0px solid black;
+    }
+    #chatbox img {
+      border-radius: 50%;
+    }
+    #userInput {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 10px;
+      height: 30px;
+      margin-top: 30px;
+      border: 1px solid rgb(100, 94, 94);
+      border-radius: 5px;
+    }
+    input {
+      height: 100%;
+      width: 100%;
+      padding-left: 5px;
+      border: none;
+      outline: none;
+      background: none;
+      border-radius: 10px;
+    }
+    .userText {
+      color: white;
+      font-family: monospace;
+      font-size: 17px;
+      text-align: right;
+      line-height: 30px;
+    }
+    .userText span {
+      background-color: #808080;
+      padding: 10px;
+      border-radius: 2px;
+    }
+    .botText {
+      color: rgb(252, 251, 251);
+      font-family: monospace;
+      font-size: 17px;
+      text-align: left;
+      line-height: 30px;
+    }
+    .botText span {
+    background-color: #d4a818; /* Yellow background */
+    padding: 10px; /* Padding inside the box */
+    border-radius: 2px; /* Rounded corners */
+    display: inline-block; /* Adjust width according to text content */
+    max-width: 100%; /* Prevent overflow */
+    word-wrap: break-word; /* Ensure long words wrap */
+    }
+    .boxed {
+      position: fixed;
+      left: 50%;
+      top: 10px;
+      bottom: 10px;
+      transform: translate(-50%, -50%);
+      width: 40%;
+      margin-top: 20%;
+      border: 4px solid #4745445d;
+      border-radius: 10px;
+      background: #fff;
+      padding: 20px;
+      overflow-y: auto;
+    }
+    .main {
+      width: 70%;
+      left: 20%;
+      height: 20%;
+      font-style: italic;
+      align-content: center;
+      align-items: center;
+      border: 2px solid rgb(5, 5, 5);
+    }
+    .main {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .im {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .t {
+      position: relative;
+      border: 0px solid black;
+      float: right;
+      margin-right: 25%;
+      margin-top: 1px;
+      color: #fff;
+    }
+    .block-display {
+      margin: 20px; /* Add margin for spacing */
+    }
+    .block-display h3 {
+      text-align: left;
+      margin-left: 15px; /* Adjust the left margin to create some spacing */
+    }
+    ul {
+    list-style-type: none;
+}
+ul li {
+    background-color: #eaeaea; /* grey box color */
+    padding: 4px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #333; /* Text color */
+    border: 1px solid #dcdcdc; /* subtle border */
+    width: 300px; /* Set fixed width */
+    max-width: 100%; /* Ensures boxes don't overflow */
+}
+    /* General */
+  </style>
+</head>
+<body>
+  <div style="background-color: rgb(67, 66, 66);color: white;text-align:center;padding-top: 31px;padding-bottom: 31px;">
+    <img style="float: left; margin-top: -15px;" src="/static/logo.png" alt="">
+   
+    <h2 style="padding-right: 147px;">| Study@UNAM | UNAM School of Science Admission Requirements |</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="boxed" class="col-md-7">
+        <div id="chatbox">
+          <p class="botText">
+            <span>What can I assist you with regarding UNAM's School of Science admissions?</span>
+          </p>
+        </div>
+        <div id="userInput">
+          <input id="textInput" type="text" name="msg" placeholder=" Enter your question here" size="90"/>
+        </div>
+        <script>
+          function getBotResponse() {
+            // Get user input and append to chat
+            var rawText = $("#textInput").val();
+            var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+            $("#textInput").val("");
+            $("#chatbox").append(userHtml);
+            document
+              .getElementById("userInput")
+              .scrollIntoView({
+                block: "start",
+                behavior: "smooth"
+              });
+            // Send user input to the server for processing
+            console.log(rawText);
+            $.get("/get", {
+              msg: rawText
+            }).done(function (data) {
+              // Get the response from the server and append to chat
+              console.log(data);
+              var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+              $("#chatbox").append(botHtml);
+              document
+                .getElementById("userInput")
+                .scrollIntoView({
+                  block: "start",
+                  behavior: "smooth"
+                });
+            });
+          }
+          // Get the response from the server and append to chat
+          $("#textInput").keypress(function (e) {
+            if (e.which == 13) {
+              getBotResponse();
+            }
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+  <!--container end-->
+  <div class="block-display">
+    <div class="vertical"></div>
+      <ul>
+        <li><strong>Things I can assist you with: </strong></li>
+        <li>Courses Offered</li>
+        <li>Admission Requirements</li>
+        <li>Conditional Entry Pathways</li>
+      </ul>
+      <style>
+        .vertical {
+            position: absolute;
+            right: 75%;
+            border-left: 3px solid rgb(206, 203, 61);
+            height: 265px;
+        }
+      </style>
+      <div class="vertical"></div>
+    </div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous">
+  </script>
+  <script type="text/javascript
+  <script type=text/javascript src="{{
+    url_for('static', filename='js/main.js') }}">
+    </script>
+    <script type=text/javascript src="{{
+    url_for('static', filename='js/jquery.blast.min.js') }}">
+    </script>        
+    <p style="background-color: rgb(241, 18, 10);color: rgb(6, 6, 6) (15, 14, 14) (0, 0, 0) (248, 247, 247);text-align:center;bottom: 0;position: fixed;width: 100%;margin-bottom: 0;padding-top: 5px;padding-bottom: 5px;">Developed by Foibe Absalom</p>
+  </body>
+</html>
