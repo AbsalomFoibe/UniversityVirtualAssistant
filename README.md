@@ -10,6 +10,6 @@ Numerous Python libraries, such as:
 - SpaCy for linguistic tasks,
 - Gunicorn for web server deployment,
 - NumPy for numerical computations,
-- and JSON for dataset management
-Are used in this project. With the help of the dataset's diverse conversational patterns, the chatbot may fully understand user queries. 
+- and JSON for dataset management,
+are used in this project. With the help of the dataset's diverse conversational patterns, the chatbot may fully understand user queries. 
 This study shows how several Python tools may work together to produce a comprehensive solution and exemplifies the integration of web development, AI, and interface design.
