@@ -1,6 +1,6 @@
 "# UniversityVirtualAssistant" 
-Read the Readme.txt file
-Install all dependencies listed in the requirements.txt file
+- Make sure to read the Readme.txt file
+- Install all dependencies listed in the requirements.txt file
 
 ![Screenshot (205)](https://github.com/user-attachments/assets/e984fec1-68c2-426e-85e9-0e8df480ff1d)
 
